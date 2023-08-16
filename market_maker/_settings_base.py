@@ -33,8 +33,8 @@ ORDER_PAIRS = 6
 # Number of contracts from level 1 to ORDER_PAIRS - 1 will follow the function
 # [ORDER_START_SIZE + ORDER_STEP_SIZE (Level -1)]
 # ORDER_START_SIZE and ORDER_STEP_SIZE must be multiplication of instrument lot size.
-ORDER_START_SIZE = 100
-ORDER_STEP_SIZE = 100
+ORDER_START_SIZE = 1000
+ORDER_STEP_SIZE = 1000
 
 # Distance between successive orders, as a percentage (example: 0.005 for 0.5%)
 INTERVAL = 0.005
