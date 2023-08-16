@@ -10,8 +10,8 @@ BASE_URL = "https://testnet.bitmex.com/api/v1/"
 # BASE_URL = "https://www.bitmex.com/api/v1/" # Once you're ready, uncomment this.
 
 # The BitMEX API requires permanent API keys. Go to https://testnet.bitmex.com/app/apiKeys to fill these out.
-API_KEY = ""
-API_SECRET = ""
+API_KEY = "N5lkLW2eUsVF3CxaxpaM5ry7"
+API_SECRET = "ORKlDys1wouXV84H_G_H5zxN_VrF8IsUf_MNYux1B4GFfHJd"
 
 
 ########################################################################################################################
@@ -65,7 +65,7 @@ RELIST_INTERVAL = 0.01
 
 # Position limits - set to True to activate. Values are in contracts.
 # If you exceed a position limit, the bot will log and stop quoting that side.
-CHECK_POSITION_LIMITS = False
+CHECK_POSITION_LIMITS = True
 MIN_POSITION = -10000
 MAX_POSITION = 10000
 
@@ -73,7 +73,7 @@ MAX_POSITION = 10000
 # Use to guarantee a maker rebate.
 # However -- orders that would have matched immediately will instead cancel, and you may end up with
 # unexpected delta. Be careful.
-POST_ONLY = False
+POST_ONLY = True
 
 ########################################################################################################################
 # Misc Behavior, Technicals
